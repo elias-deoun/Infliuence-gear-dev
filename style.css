@@ -91,3 +91,16 @@ nav ul{
   display: inline-block;
   text-decoration: none;
 }
+.last{
+  display: flex;
+  flex-direction:row-reverse;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.class{
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: rgba(10, 8, 38, 1);
+}

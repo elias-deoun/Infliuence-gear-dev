@@ -30,7 +30,7 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 200px;
+  margin: 87px 120px;
 }
 nav ul{
   display: flex;
@@ -45,13 +45,14 @@ nav ul{
 .main-banner{
   display: flex;
   justify-content: space-between;
-  margin: 0 25px 0 190px;
+  /* align-items: center; */
+  margin:87px 120px;
   align-items: center;
 }
 .banner{
   max-width: 582px;
   margin: 0 auto;
-  flex: 1;
+  /* flex: 1; */
 }
 .banner-title{
   font-size: 3.25rem;
@@ -61,5 +62,16 @@ nav ul{
 .banner-image{
   width: 440px;
   height: 414px;
+  display: flex;
+  justify-content: center;
 
+}
+.main{
+  display: flex;
+  /* grid-template-columns: repeat(7,1fr); */
+  gap: 50px;
+  /* max-width: 1110px; */
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
 }

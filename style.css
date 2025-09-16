@@ -75,3 +75,19 @@ nav ul{
   justify-content: center;
   padding-left: 50px;
 }
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 50px;
+  gap: 20px;
+  align-items:center;
+}
+.title{
+  text-align: center;
+  margin: 20px auto;
+}
+.see-more{
+  text-align: right;
+  display: inline-block;
+  text-decoration: none;
+}
